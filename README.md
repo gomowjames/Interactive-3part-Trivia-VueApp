@@ -1,6 +1,8 @@
 A three part trivia webapp wrapped-up with Electron for use on a 30" touchscreen.
 
-No digital assets are contained in this repor so as to avoid any copyright issues. Please contact me if you are interested in seeing a demo.
+This was originally developed for the sitcom "Friends" 25th Anniversary as an instore customer experience.
+
+No digital assets are contained in this repo so as to avoid any potential copyright issues. Please contact me if you are interested in seeing a full demo.
 
 Project started with:
 # Vue Enterprise Boilerplate
