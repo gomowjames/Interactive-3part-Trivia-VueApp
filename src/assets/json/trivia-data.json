@@ -1,0 +1,86 @@
+{
+  "questions": [
+    {
+      "question": "What is a  <span>crapweasel?</span>",
+      "correct_answer": "It’s what Ross calls Rachel’s new romantic interest.",
+      "answers": [
+        "Phoebe’s nickname for her boss.",
+        "It’s what Ross calls Rachel’s new romantic interest.",
+        "The name of Joey’s favorite restaurant."
+      ]
+    },
+    {
+      "question": "Use the word  <span>floopy</span>  in a sentence.",
+      "correct_answer": "Rachel’s life lacks direction and is totally floopy.",
+      "answers": [
+        "Monica misses her childhood stuffed animal, Floopy.",
+        "Phoebe is rocking her new floopy hairstyle.",
+        "Rachel’s life lacks direction and is totally floopy."
+      ]
+    },
+    {
+      "question": "What do we know about the  <span>nubbin?</span>",
+      "correct_answer": "It’s Chandler’s third nipple.",
+      "answers": [
+        "It’s a skin tag in Monica’s armpit.",
+        "It’s Chandler’s third nipple.",
+        "It’s Rachel’s pregnancy belly button."
+      ]
+    },
+    {
+      "question": "What does it mean to be  <span>breezy?</span>",
+      "correct_answer": "You play it cool when leaving your ex a voicemail.",
+      "answers": [
+        "You can’t wait to step outside so you can pass gas.",
+        "You walk with confidence showing off your new haircut.",
+        "You play it cool when leaving your ex a voicemail."
+      ]
+    },
+    {
+      "question": "Who introduces the word  <span>gleba?</span>",
+      "correct_answer": "Rachel - it’s Emma’s first word.",
+      "answers": [
+        "Rachel - it’s Emma’s first word.",
+        "Ross - it’s the soft tissue of a dinosaur.",
+        "Chandler - it’s a new hair product."
+      ]
+    },
+    {
+      "question": "When should one respond:  <span>oh<span class='reduceSpace'>&nbsp;</span>de<span class='reduceSpace'>&nbsp;</span>foof?</span>",
+      "correct_answer": "When tired of French lessons.",
+      "answers": [
+        "When ordering food.",
+        "When tired of French lessons.",
+        "When complimenting a lady."
+      ]
+    },
+    {
+      "question": "What type of product is  <span>Ichiban?</span",
+      "correct_answer": "A Japanese lipstick for men.",
+      "answers": [
+        "A stir fry wok on Monica’s wish list.",
+        "A Japanese lipstick for men.",
+        "Phoebe’s favorite hot tea."
+      ]
+    },
+    {
+      "question": "Why did Phoebe invent the term  <span>nirget?</span>",
+      "correct_answer": "To rhyme with a song lyric about taking a shower.",
+      "answers": [
+        "To rhyme with a song lyric about eating cheese.",
+        "To rhyme with a song lyric about being a surrogate.",
+        "To rhyme with a song lyric about taking a shower."
+      ]
+    },
+    {
+      "question": "What is a  <span>transponster?</span>",
+      "correct_answer": "A wild guess at what Chandler does for a living.",
+      "answers": [
+        "Early ’90s technology that was part pager, part telephone.",
+        "A wild guess at what Chandler does for a living.",
+        "Another name for Phoebe’s cab."
+      ]
+    }
+  ],
+  "version": "0.1.0"
+}

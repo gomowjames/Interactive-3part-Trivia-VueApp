@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+
+<h1 id="vueenterpriseboilerplate">Vue Enterprise Boilerplate</h1>
+
+<p><strong>You diverged from the boilerplate on Jul 31 2019. See <a href="https://github.com/chrisvfritz/vue-enterprise-boilerplate/compare/0a0c307ded9caebad66097650ca0a356ab3461d5...master">what&#8217;s been added</a> since then.</strong></p>
+
+<blockquote>
+<p>This is an ever-evolving, very opinionated architecture and dev environment for new Vue SPA projects using <a href="https://github.com/vuejs/vue-cli">Vue CLI 3</a>. Questions, feedback, and for now, even bikeshedding are welcome. 😄 If you&#8217;d like to increase the time I can spend on this project, as well as other Vue resources, <strong>please consider becoming a <a href="https://www.patreon.com/chrisvuefritz">sponsor on Patreon</a></strong>. :pray:</p>
+</blockquote>
+
+<h2 id="features">Features</h2>
+
+<ul>
+<li><a href="#documentation"><strong>Thorough documentation</strong></a>: Written with the same care as Vue&#8217;s core docs to quickly train new team members and consolidate knowledge.</li>
+<li><a href="docs/linting.md"><strong>Guaranteed consistency</strong></a>: Opinionated linting for Vue, JavaScript/JSON, SCSS, and Markdown, integrated into Visual Studio Code and run against staged files on pre-commit.</li>
+<li><a href="docs/tests.md"><strong>First-class tests</strong></a>: Practice test-driven development with both unit and end-to-end tests. Unit tests with Jest live as first-class citizens alongside your source files, while Cypress provides reliable end-to-end tests in an intuitive GUI for development.</li>
+<li><a href="docs/development.md"><strong>Speedy development</strong></a>: Between <a href="docs/development.md#generators">configurable generators</a>, <a href="docs/development.md#aliases">handy aliases</a>, and <a href="docs/development.md#base-components">global base components</a>, your productivity will skyrocket.</li>
+</ul>
+
+<h2 id="gettingstarted">Getting started</h2>
+
+<pre><code class="bash"># 1. Clone the repository.
+git clone https://github.com/chrisvfritz/vue-enterprise-boilerplate.git my-new-project
+
+# 2. Enter your newly-cloned folder.
+cd my-new-project
+
+# 3. Install dependencies. Make sure yarn is installed: https://yarnpkg.com/lang/en/docs/install
+yarn
+
+# 4. Replace this README's CI badge with a note about when you started
+# and a link to a compare URL, so that you can always get an overview
+# of new features added to the boilerplate since you cloned.
+node _start.js
+
+# 5. Delete the start script, as there can be only one beginning.
+rm _start.js
+
+# 6. Read the documentation linked below for &quot;Setup and development&quot;.
+</code></pre>
+
+<h2 id="documentation">Documentation</h2>
+
+<p>This project includes a <code>docs</code> folder with more details on:</p>
+
+<ol>
+<li><a href="docs/development.md">Setup and development</a></li>
+<li><a href="docs/architecture.md">Architecture</a></li>
+<li><a href="docs/tech.md">Languages and technologies</a></li>
+<li><a href="docs/routing.md">Routing, layouts, and views</a></li>
+<li><a href="docs/state.md">State management</a></li>
+<li><a href="docs/tests.md">Tests and mocking the API</a></li>
+<li><a href="docs/linting.md">Linting and formatting</a></li>
+<li><a href="docs/editors.md">Editor integration</a></li>
+<li><a href="docs/production.md">Building and deploying to production</a></li>
+<li><a href="docs/troubleshooting.md">Troubleshooting</a></li>
+</ol>
+
+<h2 id="faq">FAQ</h2>
+
+<p><strong>Why would I use this boilerplate instead of generating a new project with <a href="https://github.com/vuejs/vue-cli">Vue CLI</a> directly?</strong></p>
+
+<p>Vue CLI aims for flexibility, making it as simple as possible for any team to set up a new project, no matter how big or small, whether it&#8217;s an app or a library, or what languages and technologies are being used.</p>
+
+<p>This boilerplate makes more assumptions. It assumes you&#8217;re building a large app, possibly developed by a large team. It also makes a lot of default choices for you, based on what tends to work well for large, enterprise projects. At the same time, it aims to educate and empower users to configure these defaults to ideally suit their specific app and team.</p>
+
+<p><strong>Why would I use this boilerplate instead of <a href="https://nuxtjs.org/">Nuxt</a>?</strong></p>
+
+<p>Nuxt is like a really smart personal assistant, immediately making you more productive by taking care of many concerns <em>for you</em>. This boilerplate is more of a personal coach, aiming to educate and empower users to essentially configure their <em>own</em> framework, ideally suited to their app and team.</p>
+
+<p>If what you&#8217;re building is very well-defined, with requirements and technical challenges that won&#8217;t drastically change over time, I&#8217;d probably recommend Nuxt instead. For the needs of common applications, it&#8217;s more than up to the task. If you&#8217;re a startup trying to prove product-market fit and your primary goal is initial development speed, that&#8217;s also a point in Nuxt&#8217;s favor.</p>
+
+<p>Here&#8217;s when you might prefer building a project off the boilerplate instead:</p>
+
+<ul>
+<li>The requirements for the product are very likely to change over time and you want to maintain maximum flexibility and control.</li>
+<li>You&#8217;d like to focus on developing skills that will transfer across <em>any</em> Vue project.</li>
+<li>You&#8217;re working in a large team, so need tooling to help everyone avoid common mistakes, write in a consistent style, and avoid bikeshedding in PRs.</li>
+</ul>
+
+<p>Finally, it&#8217;s not an either-or situation. This boilerplate demonstrates many useful patterns for building robust applications that can also be applied to Nuxt apps. That means you could build a project with Nuxt, while still using this boilerplate as a study guide.</p>
+
+<p><strong>Can you build a Nuxt version of this boilerplate?</strong></p>
+
+<p>I might! I&#8217;ll be focusing on this Vue CLI version for now, but once I&#8217;ve made most of the improvements on my roadmap and as time allows, I <em>would</em> like to start work on a Nuxt version. The Nuxt team has even generously offered to help!</p>
+
+</body>
+</html>
+

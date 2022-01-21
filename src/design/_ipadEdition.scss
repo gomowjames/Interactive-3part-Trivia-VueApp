@@ -1,0 +1,205 @@
+/* IPAD PORTAIT ORIENTATION STYLES */
+@media screen and (max-width: 1400px) {
+
+	#app {
+	
+		header h2 {
+			margin-bottom: 0;
+		}
+		
+		header h3 {
+			font-size: 2.5vh;
+		}
+
+// VOCAB TRIVIA
+#trivia {
+	
+	#trivia-main {
+
+		.triviaQuestion {
+			font-size: 3vh;
+			
+			span { font-size: 8vh; }
+		}
+		
+		ul.triviaAnswers li button {
+			font-size: 2.5vh;
+		}
+	}
+}
+
+
+//CHARACTER MATCH 
+#character-match {
+	.playArea {
+		width: 95%;
+				
+		.slots-group {
+			margin-bottom: 6vh;
+		}
+
+		#character-match .characters-group-left .charParent .charWrapper,
+		#character-match .characters-group-right .charParent .charWrapper {
+			height: 12vh;
+		}
+		
+		.characters-group-left .charParent .charWrapper .circle.friend,
+		.characters-group-right .charParent .charWrapper .circle.friend,
+		.characters-group-left .charParent .charWrapper .circle.friend img, 
+		.characters-group-right .charParent .charWrapper .circle.friend img,
+		.slots-group .circle.slot, .circle.association {
+			max-width: 12vh;
+			max-height: 12vh;
+		}		
+	}
+	footer h4 {
+		font-size: 3vh;
+		
+		&#plus, &#minus {
+			font-size: 4.5vh;
+		}
+	}	
+}
+
+// EPISODE MIX-UP
+	#episodeMixUp .EpisodeMixUp {
+		.roundWrapper {
+			
+			header {
+				height: 25vh;
+			}
+			
+			.playArea {
+				width: 100%;
+			}
+		
+			footer.footer {
+				height: 35vh;
+						    
+				.buttonWrapper {
+					height: 10vh;
+				}
+			}
+		}
+	}
+	
+	#episodeMixUp div	.results header {
+	    height: 25vh;	
+	}
+
+// MODALS
+	#trivia #trivia-main .triviaInputs .modal-backdrop,
+	#episodeMixUp .EpisodeMixUp .roundWrapper .playArea .modal-backdrop {
+		.modal {
+			width: 100vh;
+			height: 56.25vh;
+		}
+
+		#modalOverlay {
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  z-index: 500;
+		  width: 112vh;
+		  height: 63.25vh;
+		}
+		
+		.modalBody {
+			.feedbackVideoWrapper {
+		    width: 100vh;
+		    height: 56.25vh;
+				display: flex;
+				position: relative;
+				align-items: center;
+				justify-content: center;
+				object-fit: contain;
+			
+				video {
+			    width: 100vh;
+			    height: 56.25vh;
+				}
+			}
+		}
+
+		.modal-footer {
+	    width: 110vh;
+	    height: 66.25vh;
+		  z-index: 500;
+		  
+		  button {
+			  bottom: -5vh;
+		  }
+		}
+	}
+	
+//INSTRUCTIONS
+	
+	.instWrapper header {
+		margin: 0 auto 4vh;
+	}
+	
+	.instWrapper .instructions {	
+		.contentBox {
+			max-width: 65%;
+		}		
+	}
+
+
+// MENU PORTAL
+		.menuPortal {
+		
+			header {
+				
+				h1 {
+					font-size: 6rem;
+				}
+				
+				h3 {
+				  font-size: 1.5rem;
+				  line-height: 1;
+				}
+			}
+		}
+		
+		ul.portal {
+		  text-align: center;  
+		  list-style-type: none;
+		  padding: 0 30px;
+			margin: 3rem auto;
+			
+			li {
+				padding: 0 20px;
+		
+				figure {
+					height: 150px;
+					width: 150px;
+					background-color: #FFF;
+					border: 2px solid #000;
+					border-radius: 50%;
+					margin: 0 auto 40px;
+				}
+				
+				h4 {
+					font-size: 20px;
+					letter-spacing: .1em;
+					line-height: 1.1;
+					max-width: 80%;
+				}
+			}
+		}
+
+
+	
+		.logo {
+			max-width: 30vh;
+		}
+	
+		.message {
+			
+			h1 {
+				font-size: 9rem;
+			}
+		}	
+	}
+}

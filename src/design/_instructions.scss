@@ -1,0 +1,85 @@
+.instWrapper {
+	position: relative;
+	display: block;
+	height: 100%;
+	min-height: 100vh;
+	padding: 0;
+	margin: 0 auto;
+	background-size: contain;
+
+	header {
+		padding-top: 5vh;
+		margin: 0 auto 6vh;
+	}
+
+	.instructions {
+		position: relative;
+		display: block;
+		height: 100%;
+		min-height: 100vh;
+		padding: 0;
+		margin: 0 auto;
+		
+		.contentBox {
+/*
+			padding: 30px 45px;
+			width: 100%;
+			position: relative;
+			margin: 0 auto;
+			text-align: center;
+			max-width: 862px;
+			
+			.innerContent {
+				display: flex;
+				height: 500px;
+				flex-direction: column;
+				justify-content: center;
+			}
+*/
+			
+			.frame {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				width: 100%;
+				height: 100%;
+				transform: translate(-50%, -50%);
+				
+				img {
+					width: 100%;
+					height: 100%;
+				}
+			}	
+			
+/*
+			h1 {
+				display: inline-block;
+				margin: 1rem auto 2.5rem;
+				text-transform: uppercase;
+				font-family: 'AleckSans_Bold', sans-serif;
+			  font-size: 3rem;
+				line-height: 1;
+			}
+*/
+			
+			ul {
+// 				width: 85%;
+				width: 60vh;
+// 				padding-left: 3.5rem;
+				padding-left: 3.7rem;
+				margin: 0 auto;
+
+				
+				li {
+					padding-left: .75rem;
+					margin: 0 0 2rem;
+// 					font-size: 1.7rem;
+					font-size: 2.5vh;
+				  line-height: 1.4;
+					color: #000;
+				  text-align: left;
+				}
+			}
+		}	
+	}
+}

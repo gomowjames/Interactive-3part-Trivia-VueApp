@@ -1,0 +1,30 @@
+// CONTENT
+$color-body-bg: #009edb;
+$color-text: #444;
+$color-heading-text: #FFF;
+
+// LINKS
+$color-link-text: #39a275;
+$color-link-text-active: $color-text;
+
+// INPUTS
+$color-input-border: lighten($color-heading-text, 50%);
+
+// BUTTONS
+$color-button-bg: $color-link-text;
+$color-button-disabled-bg: darken(desaturate($color-button-bg, 20%), 10%);
+$color-button-text: white;
+
+// GAME COLORS
+
+// EpisodeMixUp
+$tomato: #F05033;
+$brick: #5b240f;
+
+//CharMatch
+$marigold: #ffb001;
+$dkOchre: #664600;
+
+//VocabTrivia
+$sky: #009edb;
+$dkBlue: #004059;

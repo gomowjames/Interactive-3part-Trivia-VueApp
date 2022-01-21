@@ -1,0 +1,206 @@
+{
+  "categories": [
+    {
+      "id": "0",
+      "name": "Thing",
+      "prompt": ""
+    },
+    {
+      "id": "1",
+      "name": "Love Interest",
+      "prompt": ""
+    },
+    {
+      "id": "2",
+      "name": "Animal",
+      "prompt": ""
+    },
+    {
+      "id": "3",
+      "name": "Job",
+      "prompt": ""
+    }
+  ],
+  "friends": [
+    {
+      "name": "Chandler",
+      "charImgPath": "character_chandler.png",
+      "categories": [
+        {
+          "id": "0",
+          "name": "Thing",
+          "assoc": "bunnySuit",
+          "assocImgPath": "thing_chandler.png"
+        },
+        {
+          "id": "1",
+          "name": "Love Interest",
+          "assoc": "janiceHosenstein",
+          "assocImgPath": "love_chandler.png"
+        },
+        {
+          "id": "2",
+          "name": "Animal",
+          "assoc": "chick",
+          "assocImgPath": "animal_chandler.png"
+        },
+        {
+          "id": "3",
+          "name": "Job",
+          "assoc": "juniorAdvertisingCopywriter",
+          "assocImgPath": "job_chandler.png"
+        }
+      ]
+    },
+    {
+      "name": "Joey",
+      "charImgPath": "character_joey.png",
+      "categories": [
+        {
+          "id": "0",
+          "name": "Thing",
+          "assoc": "hugsy",
+          "assocImgPath": "thing_joey.png"
+        },
+        {
+          "id": "1",
+          "name": "Love Interest",
+          "assoc": "janineLecroix",
+          "assocImgPath": "love_joey.png"
+        },
+        {
+          "id": "2",
+          "name": "Animal",
+          "assoc": "duck",
+          "assocImgPath": "animal_joey.png"
+        },
+        {
+          "id": "3",
+          "name": "Job",
+          "assoc": "actor",
+          "assocImgPath": "job_joey.png"
+        }
+      ]
+    },
+    {
+      "name": "Monica",
+      "charImgPath": "character_monica.png",
+      "categories": [
+        {
+          "id": "0",
+          "name": "Thing",
+          "assoc": "erogenousZones",
+          "assocImgPath": "thing_monica.png"
+        },
+        {
+          "id": "1",
+          "name": "Love Interest",
+          "assoc": "Pete Becker",
+          "assocImgPath": "love_monica.png"
+        },
+        {
+          "id": "2",
+          "name": "Animal",
+          "assoc": "turkeyHead",
+          "assocImgPath": "animal_monica.png"
+        },
+        {
+          "id": "3",
+          "name": "Job",
+          "assoc": "chef",
+          "assocImgPath": "job_monica.png"
+        }
+      ]
+    },
+    {
+      "name": "Phoebe",
+      "charImgPath": "character_phoebe.png",
+      "categories": [
+        {
+          "id": "0",
+          "name": "Thing",
+          "assoc": "shoeboxDollhouse",
+          "assocImgPath": "thing_phoebe.png"
+        },
+        {
+          "id": "1",
+          "name": "Love Interest",
+          "assoc": "parker",
+          "assocImgPath": "love_phoebe.png"
+        },
+        {
+          "id": "2",
+          "name": "Animal",
+          "assoc": "smellyCat",
+          "assocImgPath": "animal_phoebe.png"
+        },
+        {
+          "id": "3",
+          "name": "Job",
+          "assoc": "masseuse",
+          "assocImgPath": "job_phoebe.png"
+        }
+      ]
+    },
+    {
+      "name": "Rachel",
+      "charImgPath": "character_rachel.png",
+      "categories": [
+        {
+          "id": "0",
+          "name": "Thing",
+          "assoc": "pinkBridesmaidDress",
+          "assocImgPath": "thing_rachel.png"
+        },
+        {
+          "id": "1",
+          "name": "Love Interest",
+          "assoc": "gavinMitchell",
+          "assocImgPath": "love_rachel.png"
+        },
+        {
+          "id": "2",
+          "name": "Animal",
+          "assoc": "lobster",
+          "assocImgPath": "animal_rachel.png"
+        },
+        {
+          "id": "3",
+          "name": "Job",
+          "assoc": "waiterWaitress",
+          "assocImgPath": "job_rachel.png"
+        }
+      ]
+    },
+    {
+      "name": "Ross",
+      "charImgPath": "character_ross.png",
+      "categories": [
+        {
+          "id": "0",
+          "name": "Thing",
+          "assoc": "armadilloCostume",
+          "assocImgPath": "thing_ross.png"
+        },
+        {
+          "id": "1",
+          "name": "Love Interest",
+          "assoc": "elizabethsStevens",
+          "assocImgPath": "love_ross.png"
+        },
+        {
+          "id": "2",
+          "name": "Animal",
+          "assoc": "marcelTheMonkey",
+          "assocImgPath": "animal_ross.png"
+        },
+        {
+          "id": "3",
+          "name": "Job",
+          "assoc": "paleontologist",
+          "assocImgPath": "job_ross.png"
+        }
+      ]
+    }
+  ]
+}

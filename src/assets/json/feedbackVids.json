@@ -1,0 +1,19 @@
+{
+  "videos": [
+    {
+      "correct": [
+        "CORRECT_FRND-s9e4-phoebe happy dance.mp4",
+        "CORRECT_FRND-s9e11-phoebe yay.mxf.mp4",
+        "CORRECT_FRND-s9e19-ross slow clap.mxf.mp4"
+      ]
+    },
+    {
+      "incorrect": [
+        "INCORRECT_FRND-s1e10-janice oh no.mxf.mp4",
+        "INCORRECT_FRND-s2e10-OH NO.mxf.mp4",
+        "INCORRECT_FRND-s3e18-wrong.mxf.mp4",
+        "INCORRECT_FRND-s5e20-THATS NOT THE RIGHT DECISION.mxf.mp4"
+      ]
+    }
+  ]
+}

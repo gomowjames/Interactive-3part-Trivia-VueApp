@@ -1,0 +1,208 @@
+{
+  "rounds": [
+    {
+      "episodes": [
+        {
+          "episodeNum": "0118",
+          "title": "Marcel plays his favorite song.",
+          "videopath": "VID_s1e18-Marcel plays music_v2.mp4",
+          "stillpath": "PIC_s1e18-Marcel plays music.jpg"
+        },
+        {
+          "episodeNum": "0301",
+          "title": "Ross returns a call from his pager.",
+          "videopath": "VID_S3E1 PAGER_v2.mp4",
+          "stillpath": "PIC_S3E1 PAGER.jpg"
+        },
+        {
+          "episodeNum": "0511",
+          "title": "Rachel learns about Monica and Chandler’s secret relationship.",
+          "videopath": "VID_S5E11 EAVESDROPPING_v2.mp4",
+          "stillpath": "PIC_S5E11 EAVESDROPPING.jpg"
+        },
+        {
+          "episodeNum": "0710",
+          "title": "Ross dresses up as an armadillo for Christmas.",
+          "videopath": "VID_s7e10-Christmas Armadillo_v2.mp4",
+          "stillpath": "PIC_s7e10-Christmas Armadillo.jpg"
+        },
+        {
+          "episodeNum": "0902",
+          "title": "Rachel and Ross discuss Joey’s proposal.",
+          "videopath": "VID_s9e2-Rachel accepted Joey_v2.mp4",
+          "stillpath": "PIC_s9e2-Rachel accepted Joey.jpg"
+        }
+      ]
+    },
+    {
+      "episodes": [
+        {
+          "episodeNum": "0110",
+          "title": "Joey shows up at Monica’s apartment in an elf costume.",
+          "videopath": "VID_s1e10-Joey In His Elf Costume_v2.mp4",
+          "stillpath": "PIC_s1e10-Joey In His Elf Costume.jpg"
+        },
+        {
+          "episodeNum": "0302",
+          "title": "Monica leaves a breezy voicemail message for Richard.",
+          "videopath": "VID_s3e2-Breezy_v2.mp4",
+          "stillpath": "PIC_s3e2-Breezy.jpg"
+        },
+        {
+          "episodeNum": "0524",
+          "title": "Rachel and Ross elope in Vegas.",
+          "videopath": "VID_s5e24-ross and rachel elope_v2.mp4",
+          "stillpath": "PIC_s5e24-ross and rachel elope.jpg"
+        },
+        {
+          "episodeNum": "0706",
+          "title": "Joey and Ross are nap buddies.",
+          "videopath": "VID_s7e6-Joey Nap_v2.mp4",
+          "stillpath": "PIC_s7e6-Joey Nap.jpg"
+        },
+        {
+          "episodeNum": "0917",
+          "title": "Joey doesn’t want to share Hugsy with Emma.",
+          "videopath": "VID_s9e17-Hugsy_v2.mp4",
+          "stillpath": "PIC_s9e17-Hugsy.jpg"
+        }
+      ]
+    },
+    {
+      "episodes": [
+        {
+          "episodeNum": "0215",
+          "title": "Chandler and Joey relax and recline.",
+          "videopath": "VID_S2E15 BRO TIME_v2.mp4",
+          "stillpath": "PIC_S2E15 BRO TIME.jpg"
+        },
+        {
+          "episodeNum": "0412",
+          "title": "The gang plays Pictionary and the stakes are high.",
+          "videopath": "VID_s4e12-Tanspondster_v2.mp4",
+          "stillpath": "PIC_s4e12-Tanspondster.jpg"
+        },
+        {
+          "episodeNum": "0608",
+          "title": "Rachel rides in the elevator with her boss, Ralph Lauren.",
+          "videopath": "VID_s6e8-ralph lauren_v2.mp4",
+          "stillpath": "PIC_s6e8-ralph lauren.jpg"
+        },
+        {
+          "episodeNum": "0824",
+          "title": "Baby Emma is born.",
+          "videopath": "VID_s8e24-rachel gives birth_v2.mp4",
+          "stillpath": "PIC_s8e24-rachel gives birth.jpg"
+        },
+        {
+          "episodeNum": "1001",
+          "title": "Joey and Rachel kiss.",
+          "videopath": "VID_s10e1-Joey kissing Rachel_v2.mp4",
+          "stillpath": "PIC_s10e1-Joey kissing Rachel.jpg"
+        }
+      ]
+    },
+    {
+      "episodes": [
+        {
+          "episodeNum": "0217",
+          "title": "The gang sings Smelly Cat.",
+          "videopath": "VID_s2e17-The Friends Sing Smelly Cat_v2.mp4",
+          "stillpath": "PIC_s2e17-The Friends Sing Smelly Cat.jpg"
+        },
+        {
+          "episodeNum": "0424",
+          "title": "Joey talks on the phone to Phoebe as he walks down the aisle at Ross’ wedding.",
+          "videopath": "VID_S4E24 ROSS WEDDING JOEY PHOEBE PHONE_v2.mp4",
+          "stillpath": "PIC_S4E24 ROSS WEDDING JOEY PHOEBE PHONE.jpg"
+        },
+        {
+          "episodeNum": "0621",
+          "title": "Ross meets his new, and much younger, girfriend’s dad, Paul Stevens.",
+          "videopath": "VID_s6e21-Bruce Willis_v2.mp4",
+          "stillpath": "PIC_s6e21-Bruce Willis.jpg"
+        },
+        {
+          "episodeNum": "0806",
+          "title": "The gang dresses up for Halloween.",
+          "videopath": "VID_s8e6-Im Chandler_v2.mp4",
+          "stillpath": "PIC_s8e6-Im Chandler.jpg"
+        },
+        {
+          "episodeNum": "1005",
+          "title": "Joey writes Monica and Chandler a letter of recommendation for the adoption agency.",
+          "videopath": "VID_S10E5 HANDWRITTEN LETTER_v2.mp4",
+          "stillpath": "PIC_S10E5 HANDWRITTEN LETTER.jpg"
+        }
+      ]
+    },
+    {
+      "episodes": [
+        {
+          "episodeNum": "0214",
+          "title": "Phoebe explains that Rachel is Ross’ lobster.",
+          "videopath": "VID_s2e14-Lobster_v2.mp4",
+          "stillpath": "PIC_s2e14-Lobster.jpg"
+        },
+        {
+          "episodeNum": "0411",
+          "title": "Phoebe tells her brother that she’ll have his baby.",
+          "videopath": "VID_s4e11-Phoebe Tells Brother She Will Carry Baby_v2.mp4",
+          "stillpath": "PIC_s4e11-Phoebe Tells Brother She Will Carry Baby.jpg"
+        },
+        {
+          "episodeNum": "0610",
+          "title": "Monica and Ross perform their routine on Dick Clark’s Rockin’ New Year’s Eve.",
+          "videopath": "VID_s6e10-Ross And Monica Do The Routine_v2.mp4",
+          "stillpath": "PIC_s6e10-Ross And Monica Do The Routine.jpg"
+        },
+        {
+          "episodeNum": "0809",
+          "title": "Will Colbert tells Rachel about he and Ross’ high school hijinks.",
+          "videopath": "VID_s8e9-Rumor_v2.mp4",
+          "stillpath": "PIC_s8e9-Rumor.jpg"
+        },
+        {
+          "episodeNum": "1011",
+          "title": "Monica and Rachel host a bachelorette party for Phoebe.",
+          "videopath": "VID_s10e11-Danny DeVito_v2.mp4",
+          "stillpath": "PIC_s10e11-Danny DeVito.jpg"
+        }
+      ]
+    },
+    {
+      "episodes": [
+        {
+          "episodeNum": "0101",
+          "title": "Ross is upset to be newly single.",
+          "videopath": "VID_s1e1-Joey Has An Answer For Ross Pain_v2.mp4",
+          "stillpath": "PIC_s1e1-Joey Has An Answer For Ross Pain.jpg"
+        },
+        {
+          "episodeNum": "0325",
+          "title": "Joey is buried in mermaid-shaped sand.",
+          "videopath": "VID_s3e25-joey sand mermaid_v2.mp4",
+          "stillpath": "PIC_s3e25-joey sand mermaid.jpg"
+        },
+        {
+          "episodeNum": "0516",
+          "title": "Ross, Rachel and Chandler attempt to carry a sofa up several flights of stairs.",
+          "videopath": "VID_s5e16-Turn_v2.mp4",
+          "stillpath": "PIC_s5e16-Turn.jpg"
+        },
+        {
+          "episodeNum": "0724",
+          "title": "Chandler and Monica say “I do.”",
+          "videopath": "VID_s7e24-Joey Pronounces Them Man And Wife_v2.mp4",
+          "stillpath": "PIC_s7e24-Joey Pronounces Them Man And Wife.jpg"
+        },
+        {
+          "episodeNum": "0903",
+          "title": "Chandler tells the gang he’s getting relocated for work.",
+          "videopath": "VID_s9e3-Chandler relocated_v2.mp4",
+          "stillpath": "PIC_s9e3-Chandler relocated.jpg"
+        }
+      ]
+    }
+  ]
+}

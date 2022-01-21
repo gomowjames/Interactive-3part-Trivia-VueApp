@@ -1,0 +1,237 @@
+$ease-out: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+
+$tomato: #F05033;
+$brick: #5b240f;
+
+#episodeMixUp section.results .scoreWrapper { 
+	h1.total {
+		margin: 0 auto;
+	}
+}
+
+#episodeMixUp section.results {
+
+	footer button.menuImage {
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}	
+}
+
+#episodeMixUp {
+	min-width: 100%;
+	max-width: 100%;
+	height: 100%;
+	min-height: 100vh;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+	background-color: $tomato;
+	
+	.roundWrapper header {
+		height: 30vh;
+	}
+		
+	header.headerResults {
+		width: 100%;
+		height: 30vh;
+		padding-top: 5vh;
+		margin: 0 auto;
+		
+		h2 {
+		}
+		h3 {
+			margin: 0;
+		}
+	}
+	
+	.playArea {
+		width: 85%;
+		height: 40vh;
+		padding: 0 50px;
+	}
+	
+	.footer {
+		position: relative;
+		height: 30vh;
+		
+		.lock {
+			margin: 0;
+		}	
+		
+		.inner-footer {
+			position: relative;
+			width: 20vw;
+			margin: 0 auto;
+		}
+		
+		h4 {
+		  margin: 0 auto;
+			font-family: 'AleckSans_Bold', sans-serif;
+			font-size: 4vh;
+		  line-height: 1;
+		  color: #000;
+		  text-align: center;
+		  text-transform: uppercase;
+			letter-spacing: .075em;
+		}
+		
+		h3 {
+			margin: 0;
+			font-family: 'AleckSans_Bold', sans-serif;
+		  font-size: 10vh;
+		  line-height: 1;
+			color: #FFF;
+		  text-align: center;
+			text-transform: uppercase;
+			letter-spacing: .035em;
+		}
+				
+		.buttonWrapper {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 100px;
+			z-index: 100;
+			height: 10vh;
+		}
+	}
+	
+	.episodes	 {
+    display: flex;
+    flex-direction: row;
+		height: 100%;
+		background-color: transparent;
+	}	
+	
+	ul.episodes li.imgWrapper {
+		@extend .transition-border-color;
+
+		position: relative;
+// 		width: 20%;
+		padding: 0;
+// 		display: inline-block;
+		background-color: transparent;
+		border: 8px solid transparent;
+		
+		p {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			z-index: 50;
+			transform: translate(-50%, -50%);
+		}
+
+		&.wrong {
+			button {
+				border-color: #e1251a;				
+			}
+			
+			.feedback.wrong {
+				opacity: 1;
+			}
+		}
+		
+		&.correct {			
+			button {
+				border-color: #91dd01;
+			}
+
+			.feedback.correct {
+				opacity: 1;
+			}
+		}
+		
+		button {
+			position: relative;
+			height: 100%;
+			padding: 0;
+			background-color: $brick;
+			border: 8px solid $brick;		
+			
+			img {
+		    width: 100%;
+		    height: 100%;
+		    max-height: 100%;
+			}	
+		}
+
+		.feedback {
+			@extend .transition-opacity;
+
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			z-index: 100;
+			pointer-events: none;
+			opacity: 0;
+			transform: translate(-50%, -50%);
+		}
+	}
+	
+	.ghost {
+	  background: transparent;
+	  opacity: 0;
+	}
+	
+	.drag-container {
+	  max-width: 1000px;
+	  margin: 20px auto;
+	}
+}
+
+.drag-list {
+  display: flex;
+  align-items: flex-start;
+
+  @media (max-width: 690px) {
+    display: block;
+  }
+}
+
+.flip-list-move {
+  transition: transform 0.5s;
+}
+
+.no-move {
+  transition: transform 0s;
+}
+
+.drag-column {
+  position: relative;
+  flex: 1;
+  margin: 0 10px;
+  overflow: hidden;
+  background: rgba(black, 0.2);
+
+  @media (max-width: 690px) {
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+}
+
+@keyframes nodeInserted {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 0.8;
+  }
+}
+
+.item-dropzone-area {
+  height: 6rem;
+  margin-right: 0.6rem;
+  margin-left: 0.6rem;
+  background: #888;
+  opacity: 0.8;
+  animation-name: nodeInserted;
+  animation-duration: 0.5s;
+}
